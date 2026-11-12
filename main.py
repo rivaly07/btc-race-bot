@@ -21,7 +21,7 @@ import makefun_bars  # noqa: E402
 
 SLOW_N = 360          # 6 hours of minutes: the trend this bot rides
 FAST_N = 90           # 1.5 hours: confirms a reclaim before re-entry
-TRAIL_BPS = 80        # leave the position 0.8% under the running peak
+TRAIL_BPS = 100       # leave the position 1.0% under the running peak
 MAX_SLIP_BPS = 500    # fills after a fast move still land
 BPS = 10_000
 
